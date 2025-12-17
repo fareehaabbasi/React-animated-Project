@@ -1,9 +1,18 @@
 import React from 'react'
+import Video from '../components/home/Video'
+import HomeHeroText from '../components/home/HomeHeroText'
+import HomeBottomText from '../components/home/HomeBottomText'
 
 const Home = () => {
   return (
     <div>
-      <h1>Hello, Home page</h1>
+      <div className='h-screen w-full bg-red-950 fixed'>
+        <Video />
+      </div>
+      <div className='h-screen w-full relative flex flex-col'>
+        <HomeHeroText />
+        <HomeBottomText />
+      </div>
     </div>
   )
 }
