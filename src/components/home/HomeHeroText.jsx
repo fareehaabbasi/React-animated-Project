@@ -12,7 +12,7 @@ const HomeHeroText = () => {
     </div>
     {/* Middle Text */}
     <div className=' flex flex-col items-end font-[font300] mx-6 font-semibold'>
-      <p className='px-4 text-sm text-start'>K72 is an agency that</p> <p className=' leading-[1.6vw] w-[18.5vw] text-start text-sm'>builds brands from every angle. Today, tomorrow and years from now. We think the best sparks fly when comfort zones get left behind and friction infuses our strategies, brands and communications with real feeling. We’re transparent, honest and say what we mean, and when we believe in something, we’re all in.</p>
+      <p className='px-4 text-sm text-start'>K72 is an agency that</p> <p className='leading-[1.6vw] w-[18.5vw] text-start text-sm'>builds brands from every angle. Today, tomorrow and years from now. We think the best sparks fly when comfort zones get left behind and friction infuses our strategies, brands and communications with real feeling. We’re transparent, honest and say what we mean, and when we believe in something, we’re all in.</p>
     </div>
     </>
   )
